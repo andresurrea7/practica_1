@@ -15,7 +15,7 @@ int main()
     numero=inferior+rand()%(superior-inferior);
     cout<<"El numero es: "<<numero<<" de ser verdadero por favor ingrese un =, de ser mayor ingrese > y de ser menor por favor ingrese < "<<endl;
     cin>>entrada;
-    switch (entrada) {
+    switch (entrada) {//switch para saber que hacer en cada caso
     case '=':
         final=1;
         break;
@@ -26,7 +26,7 @@ int main()
         inferior=numero;
         break;
     default:
-        cout<<"el caracter eiongresadono es valido"<<endl;
+        cout<<"el caracter ingresadono es invalido"<<endl;
         break;
 
     }

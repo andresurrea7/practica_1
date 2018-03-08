@@ -1,5 +1,5 @@
 #include <iostream>
-/*El programa pide dos numeros y hace la divison entre ellos aproximando su rsultado, por ejemplo 8/3=2.66666666666... el lo aproximara a 3 */
+/*El programa pide dos numeros y hace la divison entre ellos aproximando su resultado, por ejemplo 8/3=2.66666666666... el lo aproximara a 3 */
 using namespace std;
 
 int main()

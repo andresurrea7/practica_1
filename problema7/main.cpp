@@ -7,12 +7,12 @@ int main()
     int numero=1,suma=0,numero1=0,numero2=1, numeroserie=0;
     cout<<"ingrese el numero que desea saber la suma de los apres que hay hasta el en la serie de Fibonacci: ";
     cin>>numero;
-    while(numeroserie<numero&&numero>0){
+    while(numeroserie<numero&&numero>0){//ciclo para comprobar de que sea positivo y llegue hasta antes de n
         numeroserie=numero1+numero2;
         numero1=numero2;
         numero2=numeroserie;
 
-        if(numeroserie%2==0)
+        if(numeroserie%2==0)//if para saber si el numero es par
             suma=suma+numeroserie;
 
     }

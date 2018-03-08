@@ -12,7 +12,7 @@ int main()
         if(numero>mayor)
             mayor=numero;
         else if(numero==0){
-                cout << "El mayor es: " <<mayor<< endl;
+                cout << "El mayor fue: " <<mayor<< endl;
                 break;
 
 

@@ -8,7 +8,7 @@ int main()
     cout << "ingrese el numero el cual quiere saber la cantidad de digitos: ";
     cin>>numero;
     x=numero;
-    while (numero>10||numero<-10) {
+    while (numero>10||numero<-10) {//while para hacerlo con positivos y negativos
 
         numero=(numero/10)+modulo;
         digitos++;

@@ -9,14 +9,14 @@ int main()
     while (1) {
         cout << "ingrese la letra: ";
         cin>>letra;
-        if(letra<=90&&letra>=65){
+        if(letra<=90&&letra>=65){//if para saber si la letra es mayuscula
             letra=letra+32;
-            cout<<letra<<endl;
+            cout<<"La letra convertida: "<<letra<<endl;
             break;
             }
-        else if(letra>=97&&letra<=122){
+        else if(letra>=97&&letra<=122){//else if para mirar si es minuscula
             letra=letra-32;
-            cout<<letra<<endl;
+            cout<<"La letra convertida: "<<letra<<endl;
             break;
             }
         else{

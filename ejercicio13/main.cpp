@@ -1,5 +1,5 @@
 #include <iostream>
-/*El programa le pide alususario un numero y este halla sus divisores. ejemplo 4 = 1,2,4*/
+/*El programa le pide al usuario un numero y este halla sus divisores. ejemplo 4 = 1,2,4*/
 using namespace std;
 
 int main()
